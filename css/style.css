@@ -208,7 +208,7 @@
 
 /*** Service ***/
 .service-item {
-    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 35px rgba(247, 160, 7,.9);
     transition: .5s;
     background-color: var(--primary);
     border-radius: 15px 15px 15px 15px;
@@ -240,7 +240,14 @@
     color: var(--light) !important;
 }
 
-
+#about-section p{
+    /*color: #262E57;*/
+    font-family: "Roboto Flex";
+    font-weight: 600;
+}
+#about-section .about-bg img{
+    width: 400px;
+}
 
 
 /*** Footer ***/
